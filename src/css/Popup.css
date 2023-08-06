@@ -1,0 +1,17 @@
+.popup-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    /* make it on top of everything */
+    z-index: 9999;
+  }
+  
+  .popup {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 4px;
+    border-color: #00ADB5;
+    border-style: solid;
+    color: #000;
+  }
